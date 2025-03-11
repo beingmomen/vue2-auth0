@@ -1,0 +1,11 @@
+[build]
+  # مجلد البناء النهائي للتطبيق
+  publish = "dist"
+  # أمر البناء للتطبيق
+  command = "npm run build"
+
+# إعدادات التوجيه لتطبيق الصفحة الواحدة (SPA)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

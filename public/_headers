@@ -1,0 +1,9 @@
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer-when-downgrade
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.auth0.com; connect-src 'self' https://*.auth0.com; img-src 'self' data: https://*.auth0.com; style-src 'self' 'unsafe-inline';
+  
+/callback
+  Clear-Site-Data: "cache", "cookies"
